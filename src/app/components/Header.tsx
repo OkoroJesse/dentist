@@ -113,7 +113,10 @@ export function Header() {
                 Contact Us
               </Link>
               <div className="pt-4 mt-2 border-t border-gray-100">
-                <button className="w-full bg-[#4A90E2] text-white px-6 py-4 rounded-xl font-bold shadow-lg shadow-blue-200 active:scale-95 transition-all">
+                <button
+                  onClick={() => { openBooking(); setMobileMenuOpen(false); }}
+                  className="w-full bg-[#4A90E2] text-white px-6 py-4 rounded-xl font-bold shadow-lg shadow-blue-200 active:scale-95 transition-all"
+                >
                   Book Appointment
                 </button>
               </div>
