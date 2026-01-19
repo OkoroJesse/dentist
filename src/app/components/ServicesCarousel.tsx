@@ -65,6 +65,21 @@ export function ServicesCarousel() {
         onSelect();
         emblaApi.on('select', onSelect);
         emblaApi.on('reInit', onSelect);
+
+        // Autoplay logic
+        const autoplay = setInterval(() => {
+            if (emblaApi.canScrollNext()) {
+                emblaApi.scrollNext();
+            } else {
+                emblaApi.scrollTo(0);
+            }
+        }, 1000);
+
+        return () => {
+            clearInterval(autoplay);
+            emblaApi.off('select', onSelect);
+            emblaApi.off('reInit', onSelect);
+        };
     }, [emblaApi, onSelect]);
 
     return (
