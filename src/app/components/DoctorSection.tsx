@@ -20,7 +20,7 @@ export function DoctorSection() {
               <div className="relative">
                 <div className="w-full max-w-md aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl">
                   <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1758205308181-d52b41e00cef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50aXN0JTIwcG9ydHJhaXQlMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzY3MjMzNzU1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                    src="https://images.unsplash.com/photo-1758205308181-d52b41e00cef?auto=format&fit=crop&q=80&w=800"
                     alt="Dr. Sarah Mitchell"
                     className="w-full h-full object-cover"
                   />
