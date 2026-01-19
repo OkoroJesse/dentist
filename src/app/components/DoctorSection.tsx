@@ -3,7 +3,7 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function DoctorSection() {
   return (
-    <section className="py-20 bg-gradient-to-br from-[#4A90E2]/5 to-[#50C9C3]/5">
+    <section className="pt-10 pb-20 bg-gradient-to-br from-[#4A90E2]/5 to-[#50C9C3]/5">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -64,7 +64,7 @@ export function DoctorSection() {
               {/* Quote */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-[#50C9C3]">
                 <p className="text-gray-700 italic mb-3">
-                  "My goal is to make every patient feel comfortable and leave with a confident, 
+                  "My goal is to make every patient feel comfortable and leave with a confident,
                   healthy smile. Dentistry should never be intimidating – it should be empowering."
                 </p>
                 <p className="text-[#4A90E2]">— Dr. Sarah Mitchell</p>

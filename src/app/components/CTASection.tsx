@@ -30,9 +30,12 @@ export function CTASection() {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
 
-            <button className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-4 rounded-lg transition-all flex items-center justify-center gap-2">
+            <a
+              href="/services"
+              className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-4 rounded-full transition-all flex items-center justify-center gap-2 font-bold"
+            >
               Learn More About Our Services
-            </button>
+            </a>
           </div>
 
           {/* Trust Indicators */}

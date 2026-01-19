@@ -50,7 +50,7 @@ export function HeroSection() {
               <div className="flex flex-wrap items-center gap-4 md:gap-6 animate-in fade-in slide-in-from-bottom duration-1000 delay-500">
                 <div className="flex items-center gap-2 bg-white/5 backdrop-blur-md border border-white/10 px-4 py-2 rounded-xl transition-colors hover:bg-white/10">
                   <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-                  <span className="text-white text-sm font-medium">Ranked #1 Clinic in 2025</span>
+                  <span className="text-white text-sm font-medium">Ranked one of the best clinic in 2025</span>
                 </div>
                 <div className="flex items-center gap-2 bg-white/5 backdrop-blur-md border border-white/10 px-4 py-2 rounded-xl transition-colors hover:bg-white/10">
                   <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
