@@ -1,16 +1,19 @@
 import { ServicesSection } from '../components/ServicesSection';
 import { CTASection } from '../components/CTASection';
 import { TestimonialsSection } from '../components/TestimonialsSection';
+import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 
 export default function ServicesPage() {
     return (
         <div className="pt-20">
             {/* Hero Section */}
             <div className="relative py-32 text-center text-white overflow-hidden">
-                <img
+                <ImageWithFallback
                     src="/images/services-hero.png"
                     alt="Dental services"
                     className="absolute inset-0 w-full h-full object-cover"
+                    loading="eager"
+                    fetchPriority="high"
                 />
                 <div className="absolute inset-0 bg-blue-900/40 backdrop-blur-[2px]"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 via-transparent to-transparent"></div>

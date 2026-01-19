@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail, Clock, ArrowRight } from 'lucide-react';
+import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 
 export default function ContactPage() {
     return (
@@ -14,10 +15,12 @@ export default function ContactPage() {
                                     borderRadius: '40% 60% 70% 30% / 40% 50% 60% 70%',
                                     boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.15)'
                                 }}>
-                                <img
+                                <ImageWithFallback
                                     src="/images/contact-hero.png"
                                     alt="Professional Dental Consultation"
                                     className="w-full h-full object-cover"
+                                    loading="eager"
+                                    fetchPriority="high"
                                 />
                             </div>
                             {/* Decorative Background Elements to mimic the blob feel */}

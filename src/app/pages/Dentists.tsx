@@ -10,7 +10,7 @@ const dentists = [
         specialty: "Specialized in cosmetic and restorative dentistry",
         experience: "7+ Years of Clinical Experience",
         patients: "Treated over 1,000 satisfied patients",
-        image: "https://images.unsplash.com/photo-1758205308181-d52b41e00cef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50aXN0JTIwcG9ydHJhaXQlMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzY3MjMzNzU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        image: "https://images.unsplash.com/photo-1758205308181-d52b41e00cef?auto=format&fit=crop&q=80&w=800",
         bio: "Dr. Mitchell founded Raf Dentals with a vision to provide personalized care that integrates health and aesthetics. She believes that every patient deserves a smile they can be proud of.",
         quote: "My goal is to make every patient feel comfortable and leave with a confident, healthy smile."
     },
@@ -21,7 +21,7 @@ const dentists = [
         specialty: "Specialized in Invisalign and Braces",
         experience: "7+ Years of Clinical Experience",
         patients: "Perfected over 1,000 smiles",
-        image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxkZW50aXN0JTIwbWFsZSUyMHBvcnRyYWl0fGVufDF8fHx8MTc2NzMzNzU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=800",
         bio: "Dr. Wilson is a leader in modern orthodontics, focusing on non-invasive techniques to align teeth effectively and comfortably for both children and adults.",
         quote: "Orthodontics is not just about straight teeth; it's about functional harmony and long-term oral health."
     }

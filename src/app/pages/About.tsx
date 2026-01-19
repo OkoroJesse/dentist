@@ -2,16 +2,19 @@ import { WhyChooseUs } from '../components/WhyChooseUs';
 import { DoctorSection } from '../components/DoctorSection';
 import { CTASection } from '../components/CTASection';
 import { ServicesCarousel } from '../components/ServicesCarousel';
+import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 
 export default function AboutPage() {
     return (
         <div className="pt-20">
             {/* ... hero section ... */}
             <div className="relative py-32 text-center text-white overflow-hidden bg-gray-900">
-                <img
+                <ImageWithFallback
                     src="/images/about-hero.png"
                     alt="Dental care tools"
                     className="absolute inset-0 w-full h-full object-cover opacity-60"
+                    loading="eager"
+                    fetchPriority="high"
                 />
                 <div className="absolute inset-0 bg-blue-900/40 backdrop-blur-[2px]"></div>
                 <div className="container mx-auto px-4 relative z-10">
@@ -56,7 +59,7 @@ export default function AboutPage() {
                             <div className="relative group">
                                 <div className="absolute -inset-4 bg-blue-600/5 rounded-[2.5rem] -rotate-3 transition-transform group-hover:rotate-0 duration-500"></div>
                                 <div className="relative aspect-[4/3] rounded-[2rem] overflow-hidden shadow-2xl border-8 border-white">
-                                    <img
+                                    <ImageWithFallback
                                         src="/images/clinic-mission.png"
                                         alt="Modern dental clinic interior"
                                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"

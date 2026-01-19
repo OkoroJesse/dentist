@@ -10,6 +10,8 @@ export function HeroSection() {
           src="/images/hero-bg-new.png"
           alt="Modern dental care model"
           className="w-full h-full object-cover"
+          loading="eager"
+          fetchPriority="high"
         />
         {/* Dark Overlay for Premium Look and Readability */}
         <div className="absolute inset-0 bg-blue-950/40 backdrop-blur-[1px]"></div>

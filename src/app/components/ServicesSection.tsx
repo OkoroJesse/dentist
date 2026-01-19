@@ -12,25 +12,25 @@ const popularServices: PopularService[] = [
   {
     title: 'Teeth Cleaning',
     description: 'Professional deep cleaning for healthy gums and a brighter smile',
-    image: 'https://images.unsplash.com/photo-1681939283065-011297ba26eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWV0aCUyMGNsZWFuaW5nJTIwcHJvZmVzc2lvbmFsfGVufDF8fHx8MTc2NzI1NzQ1M3ww&ixlib=rb-4.1.0&q=80&w=1080',
+    image: 'https://images.unsplash.com/photo-1681939283065-011297ba26eb?auto=format&fit=crop&q=80&w=800',
     icon: '✨'
   },
   {
     title: 'Teeth Whitening',
     description: 'Safe, effective whitening for a radiant, confident smile',
-    image: 'https://images.unsplash.com/photo-1655807946138-811bb2340d34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50YWwlMjB3aGl0ZW5pbmd8ZW58MXx8fHwxNzY3MjU3NDU0fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    image: 'https://images.unsplash.com/photo-1655807946138-811bb2340d34?auto=format&fit=crop&q=80&w=800',
     icon: '💎'
   },
   {
     title: 'Braces & Orthodontics',
     description: 'Straighten your teeth with modern, comfortable orthodontic solutions',
-    image: 'https://images.unsplash.com/photo-1598531228433-d9f0cb960816?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvcnRob2RvbnRpYyUyMGJyYWNlc3xlbnwxfHx8fDE3NjcyNTc0NTR8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    image: 'https://images.unsplash.com/photo-1598531228433-d9f0cb960816?auto=format&fit=crop&q=80&w=800',
     icon: '🦷'
   },
   {
     title: 'Dental Implants',
     description: 'Permanent, natural-looking tooth replacement solutions',
-    image: 'https://images.unsplash.com/photo-1642844819197-5f5f21b89ff8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50YWwlMjBlcXVpcG1lbnQlMjBtb2Rlcm58ZW58MXx8fHwxNzY3MTg4MDU1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    image: 'https://images.unsplash.com/photo-1642844819197-5f5f21b89ff8?auto=format&fit=crop&q=80&w=800',
     icon: '🏆'
   }
 ];
@@ -98,8 +98,8 @@ export function ServicesSection() {
       {/* New Category-based Section */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img
-            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=2070"
+          <ImageWithFallback
+            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=1600"
             alt="Dental consultation"
             className="w-full h-full object-cover"
           />
