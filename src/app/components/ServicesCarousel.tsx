@@ -73,7 +73,7 @@ export function ServicesCarousel() {
             } else {
                 emblaApi.scrollTo(0);
             }
-        }, 1000);
+        }, 3000);
 
         return () => {
             clearInterval(autoplay);
