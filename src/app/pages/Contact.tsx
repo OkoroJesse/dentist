@@ -25,7 +25,7 @@ export default function ContactPage() {
                             <div className="absolute top-1/2 -right-10 w-48 h-48 bg-teal-50 rounded-full blur-3xl -z-10"></div>
 
                             {/* Small decorative circle image if needed, or just a teal circle */}
-                            <div className="absolute -bottom-10 right-20 w-24 h-24 bg-[#50C9C3] rounded-full border-4 border-white shadow-xl flex items-center justify-center -z-0">
+                            <div className="absolute -bottom-10 right-20 w-24 h-24 bg-[#4A90E2] rounded-full border-4 border-white shadow-xl flex items-center justify-center -z-0">
                                 <span className="text-white text-3xl font-bold">🦷</span>
                             </div>
                         </div>
@@ -33,7 +33,7 @@ export default function ContactPage() {
                         {/* Right: Content */}
                         <div className="w-full md:w-1/2 space-y-8 animate-in slide-in-from-right duration-700">
                             <div>
-                                <h1 className="text-5xl md:text-6xl font-extrabold text-[#50C9C3] mb-6">
+                                <h1 className="text-5xl md:text-6xl font-extrabold text-[#4A90E2] mb-6">
                                     Contact Us
                                 </h1>
                                 <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-medium">
