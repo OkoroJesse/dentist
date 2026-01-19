@@ -20,7 +20,7 @@ export function Header() {
   };
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 shadow-lg py-2 backdrop-blur-md' : 'bg-white/80 py-4 backdrop-blur-md border-b border-gray-100/50'}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 shadow-lg py-2 backdrop-blur-md' : 'bg-[#D1D5DA] py-4 shadow-sm'}`}>
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -30,12 +30,12 @@ export function Header() {
             </div>
             <div>
               <h1 className="text-xl font-bold tracking-tight text-[#4A90E2]">Raf Dentals</h1>
-              <p className="text-[10px] uppercase tracking-widest text-gray-600">Your trusted dental care</p>
+              <p className="text-[10px] uppercase tracking-widest text-gray-700">Your trusted dental care</p>
             </div>
           </Link>
 
           {/* Desktop Navigation - Capsule Style */}
-          <nav className={`hidden lg:flex items-center gap-1 px-2 py-1 rounded-full backdrop-blur-md transition-all duration-300 ${isScrolled ? 'bg-gray-100/50' : 'bg-blue-50/50 border border-blue-100/30'}`}>
+          <nav className={`hidden lg:flex items-center gap-1 px-2 py-1 rounded-full backdrop-blur-md transition-all duration-300 ${isScrolled ? 'bg-gray-100/50' : 'bg-white/30 border border-white/20'}`}>
             <Link to="/" className="px-4 py-2 rounded-full text-sm font-semibold transition-colors text-gray-700 hover:text-[#4A90E2]">
               HOME
             </Link>
@@ -65,7 +65,7 @@ export function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className={`lg:hidden p-2 rounded-lg transition-colors ${isScrolled ? 'text-gray-700 hover:bg-gray-100' : 'text-white hover:bg-white/10'}`}
+            className="lg:hidden p-2 rounded-lg transition-colors text-gray-700 hover:bg-black/5"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
