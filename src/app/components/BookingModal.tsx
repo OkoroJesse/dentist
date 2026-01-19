@@ -47,7 +47,7 @@ export function BookingModal() {
                                 const whatsappMessage = `Hello Raf Dentals! I would like to book an appointment:%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Email:* ${email}%0A*Service:* ${service}%0A*Message:* ${message || 'N/A'}`;
 
                                 // Replace with actual phone number if provided
-                                const phoneNumber = '2348140695734';
+                                const phoneNumber = '2348033775088';
                                 window.open(`https://wa.me/${phoneNumber}?text=${whatsappMessage}`, '_blank');
                                 setOpen(false);
                             }}
@@ -75,7 +75,7 @@ export function BookingModal() {
                                             required
                                             name="phone"
                                             type="tel"
-                                            placeholder="0814-069-5734"
+                                            placeholder="0803-377-5088"
                                             className="w-full bg-gray-50 border border-gray-200 rounded-xl py-2 pl-10 pr-4 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"
                                         />
                                     </div>
