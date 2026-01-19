@@ -1,10 +1,12 @@
 import { WhyChooseUs } from '../components/WhyChooseUs';
 import { DoctorSection } from '../components/DoctorSection';
 import { CTASection } from '../components/CTASection';
+import { ServicesCarousel } from '../components/ServicesCarousel';
 
 export default function AboutPage() {
     return (
         <div className="pt-20">
+            {/* ... hero section ... */}
             <div className="relative py-32 text-center text-white overflow-hidden bg-gray-900">
                 <img
                     src="/images/about-hero.png"
@@ -21,6 +23,7 @@ export default function AboutPage() {
                 </div>
             </div>
 
+            {/* ... mission section ... */}
             <section className="py-24 bg-white">
                 <div className="container mx-auto px-4 md:px-6 lg:px-8">
                     <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
@@ -67,6 +70,7 @@ export default function AboutPage() {
             </section>
 
             <WhyChooseUs />
+            <ServicesCarousel />
             <DoctorSection />
             <CTASection />
         </div>
