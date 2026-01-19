@@ -2,9 +2,9 @@ import { MapPin, Phone, Mail, Clock, ArrowRight } from 'lucide-react';
 
 export default function ContactPage() {
     return (
-        <div className="pt-20">
+        <div className="pt-24 lg:pt-20">
             {/* New Hero Section Inspired by Reference */}
-            <section className="py-20 bg-white">
+            <section className="py-12 md:py-20 bg-white">
                 <div className="container mx-auto px-4 md:px-6 lg:px-8">
                     <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 lg:gap-20">
                         {/* Left: Blob Image Container */}
@@ -31,12 +31,12 @@ export default function ContactPage() {
                         </div>
 
                         {/* Right: Content */}
-                        <div className="w-full md:w-1/2 space-y-8 animate-in slide-in-from-right duration-700">
+                        <div className="w-full md:w-1/2 space-y-6 md:space-y-8 animate-in slide-in-from-right duration-700">
                             <div>
-                                <h1 className="text-5xl md:text-6xl font-extrabold text-[#4A90E2] mb-6">
+                                <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-[#4A90E2] mb-4 md:mb-6">
                                     Contact Us
                                 </h1>
-                                <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-medium">
+                                <p className="text-base md:text-xl text-gray-700 leading-relaxed font-medium">
                                     Getting in touch with us is easy. Pick one of the options below and talk to us today! Our friendly team is always here to help.
                                 </p>
                             </div>
