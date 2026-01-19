@@ -19,7 +19,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <h3 className="text-xl font-bold text-gray-900 mb-1">Our Location</h3>
-                                        <p className="text-gray-600">Abuja, Nigeria</p>
+                                        <p className="text-gray-600">6, Alhaji Animasaun Street, off Ajeigbe Bus stop, Teju specialist hospital complex ring road Ibadan</p>
                                     </div>
                                 </div>
 
@@ -60,7 +60,7 @@ export default function ContactPage() {
                                     const subject = encodeURIComponent(`Contact Form Submission from ${firstName} ${lastName}`);
                                     const body = encodeURIComponent(`Name: ${firstName} ${lastName}\nEmail: ${email}\n\nMessage:\n${message}`);
 
-                                    window.location.href = `mailto:info@brightsmile.com?subject=${subject}&body=${body}`;
+                                    window.location.href = `mailto:info@rafdentals.com?subject=${subject}&body=${body}`;
                                 }}
                             >
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

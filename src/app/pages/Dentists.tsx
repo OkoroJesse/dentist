@@ -11,7 +11,7 @@ const dentists = [
         experience: "15+ Years of Clinical Experience",
         patients: "Treated over 5,000 satisfied patients",
         image: "https://images.unsplash.com/photo-1758205308181-d52b41e00cef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50aXN0JTIwcG9ydHJhaXQlMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzY3MjMzNzU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        bio: "Dr. Mitchell founded Bright Smile Dental with a vision to provide personalized care that integrates health and aesthetics. She believes that every patient deserves a smile they can be proud of.",
+        bio: "Dr. Mitchell founded Raf Dentals with a vision to provide personalized care that integrates health and aesthetics. She believes that every patient deserves a smile they can be proud of.",
         quote: "My goal is to make every patient feel comfortable and leave with a confident, healthy smile."
     },
     {

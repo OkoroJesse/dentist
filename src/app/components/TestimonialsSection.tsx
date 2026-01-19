@@ -15,7 +15,7 @@ const testimonials: Testimonial[] = [
     name: 'Adewale Manuwa',
     role: null,
     title: '"Wonderful Experience!"',
-    text: "Going to the dentist is never a pleasant experience but if you have to go, I'd definitely recommend Smile 360. Everything about them is commendable - from the aesthetics to the customer service, the professionalism to the environment, the equipment to the well organised structure of their service, I had zero complaints!",
+    text: "Going to the dentist is never a pleasant experience but if you have to go, I'd definitely recommend Raf Dentals. Everything about them is commendable - from the aesthetics to the customer service, the professionalism to the environment, the equipment to the well organised structure of their service, I had zero complaints!",
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150',
     initials: 'AM',
     tagPosition: 'bottom'

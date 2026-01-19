@@ -44,7 +44,7 @@ export function BookingModal() {
                                 const service = formData.get('service') as string;
                                 const message = formData.get('message') as string;
 
-                                const whatsappMessage = `Hello Bright Smile Dental! I would like to book an appointment:%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Email:* ${email}%0A*Service:* ${service}%0A*Message:* ${message || 'N/A'}`;
+                                const whatsappMessage = `Hello Raf Dentals! I would like to book an appointment:%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Email:* ${email}%0A*Service:* ${service}%0A*Message:* ${message || 'N/A'}`;
 
                                 // Replace with actual phone number if provided
                                 const phoneNumber = '2348140695734';

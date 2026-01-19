@@ -29,7 +29,7 @@ export function Header() {
               <span className="text-xl">🦷</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold tracking-tight text-[#4A90E2]">Bright Smile Dental</h1>
+              <h1 className="text-xl font-bold tracking-tight text-[#4A90E2]">Raf Dentals</h1>
               <p className="text-[10px] uppercase tracking-widest text-gray-600">Your trusted dental care</p>
             </div>
           </Link>

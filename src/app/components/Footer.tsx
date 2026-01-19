@@ -13,7 +13,7 @@ export function Footer() {
                 <span className="text-xl">🦷</span>
               </div>
               <div>
-                <h2 className="text-xl font-bold tracking-tight text-white leading-tight">Bright Smile Dental</h2>
+                <h2 className="text-xl font-bold tracking-tight text-white leading-tight">Raf Dentals</h2>
                 <p className="text-[10px] uppercase tracking-widest text-white/70">Your trusted dental care</p>
               </div>
             </Link>
@@ -66,7 +66,7 @@ export function Footer() {
                 <div className="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center flex-shrink-0 border border-white/5">
                   <MapPin className="w-5 h-5 text-blue-400" />
                 </div>
-                <span className="text-gray-400 text-sm">Abuja, Nigeria</span>
+                <span className="text-gray-400 text-sm">6, Alhaji Animasaun Street, off Ajeigbe Bus stop, Teju specialist hospital complex ring road Ibadan</span>
               </li>
               <li className="flex gap-4">
                 <div className="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center flex-shrink-0 border border-white/5">
@@ -78,7 +78,7 @@ export function Footer() {
                 <div className="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center flex-shrink-0 border border-white/5">
                   <Mail className="w-5 h-5 text-blue-400" />
                 </div>
-                <span className="text-gray-400 text-sm">hello@brightsmile.com</span>
+                <span className="text-gray-400 text-sm">hello@rafdentals.com</span>
               </li>
             </ul>
           </div>
@@ -86,7 +86,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-gray-500 text-xs tracking-wide">
-            &copy; {new Date().getFullYear()} BRIGHT SMILE DENTAL. ALL RIGHTS RESERVED.
+            &copy; {new Date().getFullYear()} RAF DENTALS. ALL RIGHTS RESERVED.
           </p>
           <div className="flex gap-8 text-[10px] uppercase tracking-widest text-gray-500">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
