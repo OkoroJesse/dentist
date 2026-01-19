@@ -21,7 +21,7 @@ export function DoctorSection() {
                 <div className="w-full max-w-md aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl">
                   <ImageWithFallback
                     src="https://images.unsplash.com/photo-1758205308181-d52b41e00cef?auto=format&fit=crop&q=80&w=800"
-                    alt="Dr. Sarah Mitchell"
+                    alt="Dr. Bamidele Omidiran"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -32,7 +32,7 @@ export function DoctorSection() {
 
             {/* Doctor Info */}
             <div>
-              <h3 className="text-[#333] mb-2">Dr. Sarah Mitchell, DDS</h3>
+              <h3 className="text-[#333] mb-2">Dr. Bamidele Omidiran</h3>
               <p className="text-[#50C9C3] mb-6">Lead Dentist & Founder</p>
 
               <div className="space-y-4 mb-8">
@@ -67,7 +67,7 @@ export function DoctorSection() {
                   "My goal is to make every patient feel comfortable and leave with a confident,
                   healthy smile. Dentistry should never be intimidating – it should be empowering."
                 </p>
-                <p className="text-[#4A90E2]">— Dr. Sarah Mitchell</p>
+                <p className="text-[#4A90E2]">— Dr. Bamidele Omidiran</p>
               </div>
             </div>
           </div>
