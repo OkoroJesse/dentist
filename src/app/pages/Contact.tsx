@@ -2,7 +2,7 @@ import { MapPin, Phone, Mail, Clock, ArrowRight } from 'lucide-react';
 
 export default function ContactPage() {
     return (
-        <div className="pt-24 lg:pt-20">
+        <div className="pt-28 lg:pt-24">
             {/* New Hero Section Inspired by Reference */}
             <section className="py-12 md:py-20 bg-white">
                 <div className="container mx-auto px-4 md:px-6 lg:px-8">
