@@ -39,7 +39,6 @@ export function Header() {
             <Link to="/" className="px-4 py-2 rounded-full text-sm font-semibold transition-colors text-gray-700 hover:text-[#4A90E2]">HOME</Link>
             <Link to="/about" className="px-4 py-2 rounded-full text-sm font-semibold transition-colors text-gray-700 hover:text-[#4A90E2]">ABOUT</Link>
             <Link to="/services" className="px-4 py-2 rounded-full text-sm font-semibold transition-colors text-gray-700 hover:text-[#4A90E2]">SERVICES</Link>
-            <Link to="/dentists" className="px-4 py-2 rounded-full text-sm font-semibold transition-colors text-gray-700 hover:text-[#4A90E2]">DENTISTS</Link>
             <Link to="/contact" className="px-4 py-2 rounded-full text-sm font-semibold transition-colors text-gray-700 hover:text-[#4A90E2]">CONTACT US</Link>
           </nav>
 
@@ -89,13 +88,7 @@ export function Header() {
             >
               Services
             </Link>
-            <Link
-              to="/dentists"
-              className="text-gray-700 hover:text-[#4A90E2] font-medium py-3 px-4 rounded-xl hover:bg-blue-50 transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Dentists
-            </Link>
+
             <Link
               to="/contact"
               className="text-gray-700 hover:text-[#4A90E2] font-medium py-3 px-4 rounded-xl hover:bg-blue-50 transition-colors"
