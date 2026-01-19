@@ -10,7 +10,7 @@ const benefits = [
   {
     icon: Heart,
     title: 'Experienced Dentists',
-    description: 'Our team has decades of combined experience in all dental specialties'
+    description: 'Our team has over 7 years of clinical experience in all dental specialties'
   },
   {
     icon: Cpu,

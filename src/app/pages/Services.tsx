@@ -38,11 +38,11 @@ export default function ServicesPage() {
                         </p>
                         <div className="mt-12 flex justify-center gap-8">
                             <div className="text-center">
-                                <div className="text-4xl font-bold text-blue-600 mb-2">15+</div>
+                                <div className="text-4xl font-bold text-blue-600 mb-2">7+</div>
                                 <div className="text-gray-600 uppercase text-xs tracking-widest font-bold">Years Experience</div>
                             </div>
                             <div className="text-center">
-                                <div className="text-4xl font-bold text-blue-600 mb-2">5000+</div>
+                                <div className="text-4xl font-bold text-blue-600 mb-2">1000+</div>
                                 <div className="text-gray-600 uppercase text-xs tracking-widest font-bold">Happy Patients</div>
                             </div>
                             <div className="text-center">

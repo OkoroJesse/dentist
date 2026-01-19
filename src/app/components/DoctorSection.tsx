@@ -52,10 +52,10 @@ export function DoctorSection() {
                   <Award className="w-6 h-6 text-[#4A90E2] flex-shrink-0 mt-1" />
                   <div>
                     <p className="text-gray-700">
-                      15+ Years of Clinical Experience
+                      7+ Years of Clinical Experience
                     </p>
                     <p className="text-gray-600 text-sm">
-                      Treated over 5,000 satisfied patients
+                      Treated over 1,000 satisfied patients
                     </p>
                   </div>
                 </div>

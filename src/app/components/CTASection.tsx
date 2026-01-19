@@ -41,11 +41,11 @@ export function CTASection() {
           {/* Trust Indicators */}
           <div className="mt-12 flex flex-wrap justify-center gap-8 text-white/90">
             <div className="text-center">
-              <p className="text-3xl mb-1">10+</p>
+              <p className="text-3xl mb-1">7+</p>
               <p className="text-sm">Years Experience</p>
             </div>
             <div className="text-center">
-              <p className="text-3xl mb-1">5,000+</p>
+              <p className="text-3xl mb-1">1,000+</p>
               <p className="text-sm">Happy Patients</p>
             </div>
             <div className="text-center">
